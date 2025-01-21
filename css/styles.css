@@ -113,7 +113,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: #404bbf;
   padding-top: 24px;
   padding-bottom: 24px;
   position: relative;
@@ -170,8 +170,12 @@ img {
 .title {
   background-color: #2e2f42;
   padding: 188px 0;
+}
+.bg-title {
+  max-width: 1440px;
+  margin: 0 auto;
   background-image: linear-gradient(
-      rgba(46, 47, 66, 0.4),
+      rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
     url("../images/people-office.jpg");
@@ -330,6 +334,10 @@ img {
   gap: 24px;
 }
 .team-item-links {
+  width: 40px;
+  height: 40px;
+}
+.team-links {
   display: flex;
   align-items: center;
   justify-content: center;
